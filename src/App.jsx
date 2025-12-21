@@ -2,6 +2,7 @@ import useFetchz from "./useFetch.js";
 import Demos from "./my-app.jsx";
 import Demo3 from "./task3.jsx";
 import Demo4 from "./task4.jsx";
+import Additional_task_1 from "./additional_task_1.jsx";
 
 function Demo() {
     const {
@@ -35,6 +36,9 @@ function Demo() {
             </div>
             <div>
                 <Demo4/>
+            </div>
+            <div>
+                <Additional_task_1/>
             </div>
         </div>
     );
