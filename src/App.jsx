@@ -1,6 +1,7 @@
 import useFetchz from "./useFetch.js";
 import Demos from "./my-app.jsx";
 import Demo3 from "./task3.jsx";
+import Demo4 from "./task4.jsx";
 
 function Demo() {
     const {
@@ -31,6 +32,9 @@ function Demo() {
             </div>
             <div>
                 <Demo3/>
+            </div>
+            <div>
+                <Demo4/>
             </div>
         </div>
     );
