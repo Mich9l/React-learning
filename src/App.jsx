@@ -1,4 +1,7 @@
 import useFetchz from "./useFetch.js";
+import Demos from "./my-app.jsx";
+import Demo3 from "./task3.jsx";
+import Demo4 from "./task4.jsx";
 
 function Demo() {
     const {
@@ -24,6 +27,15 @@ function Demo() {
             {data && !isLoading && data.map(item => (
                 <div key={item.id}>{item.title}</div>
             ))}
+            <div>
+              <Demos data={data} />
+            </div>
+            <div>
+                <Demo3/>
+            </div>
+            <div>
+                <Demo4/>
+            </div>
         </div>
     );
 }
