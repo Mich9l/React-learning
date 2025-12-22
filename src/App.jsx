@@ -3,6 +3,7 @@ import Demos from "./my-app.jsx";
 import Demo3 from "./task3.jsx";
 import Demo4 from "./task4.jsx";
 import Additional_task_1 from "./additional_task_1.jsx";
+import Additional_task_2 from "./additional_task_2.jsx";
 
 function Demo() {
     const {
@@ -39,6 +40,9 @@ function Demo() {
             </div>
             <div>
                 <Additional_task_1/>
+            </div>
+            <div>
+                <Additional_task_2/>
             </div>
         </div>
     );
